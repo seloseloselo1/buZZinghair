@@ -1,46 +1,30 @@
-# wald_repo-template
+The installation consists of a physical vine woven with conductive yarns. These yarns are connected to a Trill Craft capacitive sensor, which sends data to a Bela board. The audio is generated in real-time using SuperCollider.
 
-Empty template for example structure
+Hardware Used
+Bela / Bela Mini: Main microcontroller.
 
-## HowTo
+Trill Craft: 30-channel capacitive touch sensor.
 
-### A) cool kids create their own repo
+Conductive Yarns: Integrated into the vine as the touch interface.
 
-1. create new repo using this template (click [this link](https://github.com/new?template_name=wald_repo-template&template_owner=smitzkar) for ease of use)
+How to Access the Code
+Connect the Bela board to your computer via USB.
 
-2. fill it out (see info below)
+In a browser, go to http://bela.local.
 
-3. delete the explanatory placeholders 
+Open the project folder named buzzing_hair.
 
-4. then let us know when you're done, so we can fork it (or if you don't care about keeping the repo, you can also transfer ownership to github.com/reallaborwald (organisation) or reallaborwald-team (team account))
+The main audio script is sound_supercollider.scd.
 
-### B) Git... what?
+Troubleshooting & Reset
+If the sound stops, follow these steps to reset the system:
 
-1. create folder according to the structure presented here
+Press A = OFF.
 
-2. fill it out (see info below, please)
+Wait 3 seconds.
 
-3. zip it and send it to us per mail 
+Press A = ON.
 
-4. one of us uploads it for you
+Wait up to 30–60 seconds for the system to boot; the sound will fade back in.
 
-### Filling the template
-
-#### Subfolders, dependending on project:
-- \>docs = images, videos, build-guide, how-to, extra text or pdf files, etc.  
-
-- \>hardware    = 3d-print files, schematics, etc.  
-
-- \>src         = all code and stuff used by code (just use whatever sub-structure you want or what your IDE gave you)
-
-#### Definitely required: 
-- README.md   = quick overview of the project, including relevant links, if not immediately obvious explain how to read/use the repo (see [README-template.md](README-template.md)
-
-- LICENCE     = use whatever you like, MIT is an easy choice 
-
----
-
-### markdown basics for the README [found here](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)  
-
-
-
+Do not unplug any cables or the hardware directly.
