@@ -1,7 +1,7 @@
 The installation consists of a physical vine woven with conductive yarns. These yarns are connected to a Trill Craft capacitive sensor, which sends data to a Bela board. The audio is generated in real-time using SuperCollider.
 
 Hardware Used
-Bela / Bela Mini: Main microcontroller.
+Bela: Main microcontroller.
 
 Trill Craft: 30-channel capacitive touch sensor.
 
